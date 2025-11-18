@@ -1,106 +1,92 @@
-<!DOCTYPE html><html lang="bn">
+<!DOCTYPE html>
+<html lang="bn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aso Kheli - Tournament App</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #020617;
-      color: #E0E0E0;
-    }
-    .header {
-      background: #0A0F2D;;
-      padding: 60px 20px;
-      text-align: center;
-      color: #fff;
-    }
-    .header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-    .header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-    .download-btn {
-      margin-top: 20px;
-      display: inline-block;
-      padding: 14px 30px;
-      background: #fff;
-      color: #00E5FF;
-      font-size: 18px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
-    .card h3 {
-      margin-bottom: 10px;
-      color: #00E5FF;
-    }
-    .footer {
-      background: #111;
-      color: #bbb;
-      padding: 30px 20px;
-      text-align: center;
-      margin-top: 40px;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aso Kheli - Bangladesh Gaming Tournament</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #ffffff; }
+    header { text-align: center; padding: 20px; }
+    nav { text-align: center; margin-top: 10px; }
+    nav a { margin: 0 15px; text-decoration: none; color: #000; font-weight: bold; }
+    .hero { text-align: center; padding: 20px; }
+    .hero h1 { font-size: 28px; font-weight: 700; }
+    .download-btn { background: #625aff; padding: 12px 25px; color: #fff; border-radius: 8px; text-decoration: none; font-size: 18px; }
+    .center-img { width: 90%; border-radius: 12px; display: block; margin: 20px auto; }
+    .section-title { text-align: center; font-size: 32px; margin-top: 40px; }
+    .stats { width: 85%; margin: auto; margin-top: 20px; }
+    .stat-box { border: 1px solid #ddd; padding: 20px; text-align: center; border-radius: 12px; margin-bottom: 20px; }
+    .features { width: 85%; margin: auto; margin-top: 40px; }
+    .feature-box { text-align: center; margin-bottom: 40px; }
+    footer { text-align: center; padding: 20px; margin-top: 40px; border-top: 1px solid #eee; }
+</style>
 </head>
 <body>
-  <div class="header">
-    <img src="ASO_KHELI_LOGO.png" alt="Aso Kheli Logo" style="width:150px; margin-bottom:20px; border-radius:12px;"/>
-    <h1>Aso Kheli</h1>
-    <p>বাংলাদেশের সেরা টুর্নামেন্ট আর গেমিং কম্পিটিশন অ্যাপ</p>
-    <a href="https://www.mediafire.com/file/9jeguei8cqnmcvn/ASO_KHELI_%25281%2529.apk/file" class="download-btn">Download APK</a>
-  </div>  <div class="section">
-    <h2>🔥 অ্যাপের ফিচারসমূহ</h2>
-    <div class="features">
-      <div class="card">
-        <h3>✔ দৈনিক টুর্নামেন্ট</h3>
-        <p>প্রতিদিন নতুন Free Fire / PUBG / MLBB টুর্নামেন্ট যোগ করুন এবং জিতুন ক্যাশ পুরস্কার।</p>
-      </div>
-      <div class="card">
-        <h3>✔ ইনস্ট্যান্ট রেজাল্ট</h3>
-        <p>ম্যাচ শেষেই তাৎক্ষণিক রেজাল্ট আপডেট ও প্রাইজ ডিস্ট্রিবিউশন।</p>
-      </div>
-      <div class="card">
-        <h3>✔ নিরাপদ লেনদেন</h3>
-        <p>Bkash / Nagad / Rocket এর মাধ্যমে নিরাপদ ক্যাশউট সুবিধা।</p>
-      </div>
-      <div class="card">
-        <h3>✔ 24/7 সাপোর্ট</h3>
-        <p>যে কোনো সমস্যা হলে লাইভ সাপোর্ট টিম সবসময় পাশে।</p>
-      </div>
+
+<header>
+    <img src="https://i.supaimg.com/e91ef5d0-8fbd-43c3-9d30-12aa79c054ea.jpg" width="65" />
+    <h2>Aso Kheli</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#video">Video</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>বাংলাদেশের সেরা গেমিং টুর্নামেন্ট প্ল্যাটফর্ম</h1>
+    <p>প্রতিদিন ফ্রি ফায়ার খেলে নগদ অর্থ পুরস্কার জিতুন Aso Kheli অ্যাপ এর মাধ্যমে</p>
+    <a class="download-btn" href="https://www.mediafire.com/file/9jeguei8cqnmcvn/ASO_KHELI_%25281%2529.apk/file">Download App</a>
+
+    <img class="center-img" src="https://i.supaimg.com/f46960e4-4077-405a-92b5-fe42066f2bdd.jpg" />
+</section>
+
+<div class="stats">
+    <div class="card">
+        <div class="card-icon">⬇️</div>
+        <h2>30K+</h2>
+        <p>Downloads</p>
     </div>
-  </div>  <div class="section">
-    <h2>📲 কিভাবে অ্যাপ ব্যবহার করবেন?</h2>
-    <p>
-      1. অ্যাপ ডাউনলোড করে লগইন করুন।<br>
-      2. যেকোনো টুর্নামেন্টে Join করুন।<br>
-      3. ম্যাচ খেলুন ও ফলে ক্যাশ রিওয়ার্ড পান।<br>
-      4. সহজে ক্যাশআউট করুন।
-    </p>
-  </div>  <div class="footer">
-    © 2025 Aso Kheli — All Rights Reserved
-  </div>
+
+    <div class="card">
+        <div class="card-icon">👤</div>
+        <h2>20K+</h2>
+        <p>Users</p>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">🎮</div>
+        <h2>10K+</h2>
+        <p>Match Hosted</p>
+    </div>
+</div>
+
+<div class="features">
+    <div class="card">
+        <div class="card-icon">📞</div>
+        <h3>Customer Support</h3>
+        <p>যে কোনো সমস্যায় আমাদের সাপোর্ট টিম ২৪/৭ আপনার পাশে থাকবে।</p>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">💰</div>
+        <h3>Best Pricing</h3>
+        <p>সবচেয়ে লাভজনক Entry Fee এবং Prize Pool এ টুর্নামেন্ট উপভোগ করুন।</p>
+    </div>
+</div>
+
+
+
+<h2 class="section-title">কিভাবে খেলবেন?</h2>
+<div style="text-align:center; margin-top:20px;">
+    <iframe width="90%" height="220" src="https://www.youtube.com/embed/invalid" frameborder="0" allowfullscreen></iframe>
+</div>
+  
+<footer>
+    <img src="https://i.supaimg.com/e91ef5d0-8fbd-43c3-9d30-12aa79c054ea.jpg" width="50" />
+    <p>Aso Kheli BD</p>
+    <p>© 2025 | Developed for Limon</p>
+</footer>
+
 </body>
 </html>
